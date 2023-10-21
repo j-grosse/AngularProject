@@ -1,0 +1,14 @@
+<h2>Products</h2>
+<div class="card-container">
+
+  <div *ngFor="let product of products">
+    <div class="card">
+      <h3>
+      <p> {{ product.name }}</p>
+    </h3>
+  </div>
+    <p> {{ product.description }}</p>
+    <p> Price: € {{ product.price }}</p>
+    <br>
+  </div>
+</div>
