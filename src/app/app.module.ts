@@ -7,6 +7,8 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { BarChartComponent } from './components/bar-chart/bar-chart.component';
+import { StackedBarChartComponent } from './components/stacked-bar-chart/stacked-bar-chart.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     HeaderComponent,
     HomeComponent,
     NotFoundComponent,
+    BarChartComponent,
+    StackedBarChartComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
